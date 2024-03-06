@@ -7,10 +7,10 @@ certutil -URLCache * delete
 netsh int ip reset 
 netsh int ipv4 reset 
 netsh int ipv6 reset 
-ipconfig / >nul
-ipconfig /release >nul
-ipconfig /renew >nul
-ipconfig /flushdns >nul
+ipconfig /all
+ipconfig /release 
+ipconfig /renew 
+ipconfig /flushdns
 netsh advfirewall reset
 netsh winsock reset
 netsh int ip reset
