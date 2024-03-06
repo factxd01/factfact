@@ -1,20 +1,14 @@
 
 @echo off
-netsh int ip set address "%%j" dhcp 
-netsh int ip set dns "%%j" dhcp 
-netsh interface set interface name="%%j" admin=enabled 
-certutil -URLCache * delete 
-netsh int ip reset 
-netsh int ipv4 reset 
-netsh int ipv6 reset 
-ipconfig /release 
-ipconfig /renew 
+set/p a=To Apply Click Enter To Continue)
+echo You have chosen the mode %a%
+echo Building configuration... Please wait...
+ipconfig /release
+echo Building configuration... Please wait...
+ipconfig /renew
+echo Building configuration... Please wait...
 ipconfig /flushdns
-netsh advfirewall reset
-netsh winsock reset
-netsh int ip reset
-netsh winsock reset 
-netsh advfirewall reset
 echo 100% 
 netstat -e
-echo Successfully : Press Any Key To Continue)
+echo Successfully By CloudyPunch :) Press Any Key To Continue)
+set/p z=
