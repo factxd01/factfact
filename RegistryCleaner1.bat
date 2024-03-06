@@ -1,3 +1,5 @@
+
+@echo off
 REG DELETE "HKCU\Software\Electronic Arts\EA Core\Staging\194908\ergc" /f
 REG DELETE "HKCU\Software\Electronic Arts" /f
 REG DELETE "HKLM\SOFTWARE\Respawn\Apex\Product GUID" /f
