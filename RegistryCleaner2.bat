@@ -1,3 +1,4 @@
+
 @echo off
 @shift /0
 taskkill /f /im "EpicGamesLauncher.exe" /t /fi "status eq running">nul
