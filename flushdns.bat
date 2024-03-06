@@ -17,5 +17,4 @@ netsh winsock reset
 netsh advfirewall reset
 echo 100% 
 netstat -e
-timeout 1
 echo Successfully : Press Any Key To Continue)
