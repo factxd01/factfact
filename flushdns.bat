@@ -14,6 +14,8 @@ ipconfig /flushdns >nul
 netsh advfirewall reset
 netsh winsock reset
 netsh int ip reset
+netsh winsock reset 
+netsh advfirewall reset
 echo 100% 
 netstat -e
 timeout 1
