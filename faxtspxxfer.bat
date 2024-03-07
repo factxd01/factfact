@@ -27,6 +27,7 @@ AMIDEWINx64.EXE /CA "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /CO "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /CT "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /IV "15592%random%-%random%%random%"
+AMIDEWINx64.EXE /ID "3/20/2023"
 AMIDEWINx64.EXE /IVN "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /BS "15592%random%-%random%%random%"
 net stop winmgmt /y
