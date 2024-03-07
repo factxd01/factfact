@@ -2,7 +2,7 @@
 @echo off
 echo Spoofing System Information...
 cd %~dp0
-AMIDEWINx64.EXE /SU auto
+AMIDEWINx64.EXE /SU AUTO
 AMIDEWINx64.EXE /SS "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /SV "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /CSK "15592%random%-%random%%random%"
