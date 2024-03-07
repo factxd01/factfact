@@ -35,3 +35,4 @@ sc stop winmgmt
 timeout 1
 sc start winmgmt
 timeout 1
+echo Spoofing System Information...
