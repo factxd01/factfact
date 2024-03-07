@@ -1,5 +1,4 @@
 @echo off
-title Stinks is Daddy
 :: BatchGotAdmin
 :-------------------------------------
 
