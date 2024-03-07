@@ -27,6 +27,11 @@ AMIDEWINx64.EXE /CPC "Default string"
 AMIDEWINx64.EXE /CS "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /SF "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /PAT "15592%random%-%random%%random%"
+AMIDEWINx64.EXE /PPN "15592%random%-%random%%random%"
+AMIDEWINx64.EXE /CT "Default string"
+AMIDEWINx64.EXE /CV "15592%random%-%random%%random%"
+AMIDEWINx64.EXE /CH "Default string"
+AMIDEWINx64.EXE /CSK "15592%random%-%random%%random%"
 net stop winmgmt /y
 net start winmgmt /y
 sc stop winmgmt
