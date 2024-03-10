@@ -2,8 +2,8 @@
 @echo off
 echo Spoofing System Information...
 cd %~dp0
-AMIDEWINx64.EXE /SU AUTO
 AMIDEWINx64.EXE /BS "15592%random%-%random%%random%"
+AMIDEWINx64.EXE /SU AUTO
 AMIDEWINx64.EXE /PSN "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /IVN "15592%random%-%random%%random%"
 AMIDEWINx64.EXE /IV "15592%random%-%random%%random%"
