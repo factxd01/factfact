@@ -1,9 +1,8 @@
 
 @echo off
-
+cd %~dp0
 mode con: cols=80 lines=51
 :check
-title HWID Checker
 cls
 echo [96mBIOS[97m
 echo [90m------------[97m
