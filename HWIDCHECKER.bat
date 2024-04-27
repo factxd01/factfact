@@ -1,5 +1,7 @@
+
 @echo off
-mode con: cols=80 lines=43
+
+mode con: cols=80 lines=51
 :check
 title HWID Checker
 cls
@@ -21,12 +23,12 @@ wmic systemenclosure get serialnumber
 echo [96mDISKDRIVE[97m
 echo [90m------------[97m
 wmic diskdrive get serialnumber
+echo [96m TPM MP5 [97m
 echo [90m------------[97m
-echo [96mRAM[97m
-wmic memorychip get serialnumber
+tpm-info.exe
 echo [96mMAC[97m
 echo [90m------------[97m
-wmic path Win32_NetworkAdapter where "PNPDeviceID like '%%PCI%%' AND NetConnectionStatus=2 AND AdapterTypeID='0'" get MacAddress
+wmic path Win32_NetworkAdapter get MacAddress
 echo [92mPress ENTER to see volumeid serial[97m
 pause >nul
 cls
