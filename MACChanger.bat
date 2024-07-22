@@ -28,16 +28,6 @@ FOR /F "tokens=2 delims=, skip=2" %%a IN ('"wmic nic where (netconnectionid like
 
 ECHO MAC address has been changed.
 ECHO Successfully Spoofed MAC address
-ECHO Closing in 5
-PING -n 2 127.0.0.1 >NUL
-ECHO 4
-PING -n 2 127.0.0.1 >NUL
-ECHO 3
-PING -n 2 127.0.0.1 >NUL
-ECHO 2
-PING -n 2 127.0.0.1 >NUL
-ECHO 1
-PING -n 2 127.0.0.1 >NUL
 EXIT
 
 :MAC
